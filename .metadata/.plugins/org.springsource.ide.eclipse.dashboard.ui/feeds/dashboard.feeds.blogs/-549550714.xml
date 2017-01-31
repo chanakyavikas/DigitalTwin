@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-01-30T23:59:05Z</updated>
+  <updated>2017-01-30T23:59:00Z</updated>
   <entry>
     <title>Spring Boot 1.5.1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2017/01/30/spring-boot-1-5-1-released" />
@@ -14,9 +14,9 @@
       <name>Andy Wilkinson</name>
     </author>
     <id>tag:spring.io,2017-01-26:2815</id>
-    <updated>2017-01-30T23:59:05Z</updated>
+    <updated>2017-01-30T23:59:00Z</updated>
     <content type="html">&lt;p&gt;One behalf of the Spring Boot team, and everyone that has contributed, I am pleased to announce that Spring Boot 1.5.1 has been released and is available now from &lt;a href="http://repo.spring.io/release/"&gt;repo.spring.io&lt;/a&gt;, &lt;a href="http://search.maven.org/#search|ga|1|g%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt; and &lt;a href="https://bintray.com/bintray/jcenter/org.springframework.boot%3Aspring-boot/view"&gt;Bintray&lt;/a&gt;. This release adds a significant number of new features and improvements. For full &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.5-Release-Notes#upgrading-from-spring-boot-14"&gt;upgrade instructions&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.5-Release-Notes#new-and-noteworthy"&gt;&amp;ldquo;new and noteworthy&amp;rdquo;&lt;/a&gt; features please see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.5-Release-Notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;&lt;h1&gt;&lt;a href="#what-rsquo-s-new-in-1-5" class="anchor" name="what-rsquo-s-new-in-1-5"&gt;&lt;/a&gt;What&amp;rsquo;s new in 1.5&lt;/h1&gt;&lt;h2&gt;&lt;a href="#apache-kafka-support" class="anchor" name="apache-kafka-support"&gt;&lt;/a&gt;Apache Kafka Support&lt;/h2&gt;
-&lt;p&gt;Spring Boot 1.5 include auto-configuration support for Apache Kafka via the spring-kafka project. To use Kafka simple include the &lt;code&gt;spring-kafka&lt;/code&gt; depenency and configure the appropriate &lt;code&gt;spring.kafka.*&lt;/code&gt; application properties.&lt;/p&gt;&lt;h2&gt;&lt;a href="#cloud-foundry-actuator-extensions" class="anchor" name="cloud-foundry-actuator-extensions"&gt;&lt;/a&gt;Cloud Foundry actuator extensions&lt;/h2&gt;
+&lt;p&gt;Spring Boot 1.5 includes auto-configuration support for Apache Kafka via the spring-kafka project. To use Kafka simple include the &lt;code&gt;spring-kafka&lt;/code&gt; dependency and configure the appropriate &lt;code&gt;spring.kafka.*&lt;/code&gt; application properties.&lt;/p&gt;&lt;h2&gt;&lt;a href="#cloud-foundry-actuator-extensions" class="anchor" name="cloud-foundry-actuator-extensions"&gt;&lt;/a&gt;Cloud Foundry actuator extensions&lt;/h2&gt;
 &lt;p&gt;Spring Boot’s actuator module now includes additional support that is activated when you deploy to a compatible Cloud Foundry instance. The &lt;code&gt;/cloudfoundryapplication&lt;/code&gt; path provides an alternative secured route to all &lt;code&gt;NamedMvcEndpoint&lt;/code&gt; beans.&lt;/p&gt;
 &lt;p&gt;Cloud Foundry management UIs can make use of the endpoint to display additional actuator information. For example, Pivotal Cloud Foundry shows health information next to the application status. Please see &lt;a href="https://content.pivotal.io/blog/pivotal-cloud-foundry-1-9-sets-the-bar-on-massive-scale"&gt;this blog post&lt;/a&gt; about Pivotal Cloud Foundry 1.9 for further details.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-data-ingalls" class="anchor" name="spring-data-ingalls"&gt;&lt;/a&gt;Spring Data Ingalls&lt;/h2&gt;
 &lt;p&gt;Spring Boot 1.5 ships with the recently announced Spring Data Ingalls. Please refer to the &lt;a href="https://spring.io/blog/2017/01/26/spring-data-release-train-ingalls-goes-ga"&gt;announcement blog post&lt;/a&gt; to learn about all its new features.&lt;/p&gt;&lt;h2&gt;&lt;a href="#ldap-support" class="anchor" name="ldap-support"&gt;&lt;/a&gt;LDAP support&lt;/h2&gt;
